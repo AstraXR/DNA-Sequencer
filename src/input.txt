@@ -1,0 +1,43 @@
+# This is a comment
+INSERT 0 DNA AGCTAGCTAGCT
+INSERT 1 RNA ACGUACGUACGU
+# Another comment
+REMOVE 0
+PRINT 1
+CLIP 1 4
+COPY 1 0
+SWAP 0 2 1 2
+TRANSCRIBE 1
+
+# This is a comment
+INSERT DNA AGCT
+INSERT RNA ACGU
+# Another comment
+REMOVE 0
+SWAP 0 1
+COPY 0 1
+CLIP 0 1 2
+TRANSCRIBE 0
+# End of commands
+
+# Insert DNA sequences
+INSERT DNA AGCT
+INSERT DNA CGTA
+# Swap the first two sequences
+SWAP 0 1
+# Copy the first sequence to the second position
+COPY 0 2
+# Remove the first sequence
+REMOVE 0
+# Transcribe the second sequence (which is now at the first position)
+TRANSCRIBE 0
+
+# Insert RNA sequences
+INSERT RNA ACGU
+INSERT RNA UGCA
+# Swap the first two sequences
+SWAP 0 1
+# Copy the first sequence to the second position
+COPY 0 2
+# Remove the first sequence
+REMOVE 0

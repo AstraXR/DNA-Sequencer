@@ -1,0 +1,20 @@
+insert 0 DNA gaagat
+  print   0
+insert 5 dna acgt
+PRINT
+Insert 3   DNA  cup
+
+  print 0 
+
+remove 0
+  print 0
+
+insert 1  DNA accga
+
+copy 1 2
+transcribe 2
+print
+
+  copy   5 4
+transcribe 4
+  print 5
